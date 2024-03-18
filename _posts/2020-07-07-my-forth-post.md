@@ -1,8 +1,8 @@
 ---
-title: 'My forth post'
+title: 'Operadores Relacionales'
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: '2020-07-07'
-modified_date: '2020-07-07'
+date: '2024-03-02'
+modified_date: '2024-03-02'
 image: /assets/images/posts/random-img.jpg
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'My fifth post'
+title: 'Operadores Explícitos'
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: '2020-08-08'
-modified_date: '2020-08-08'
+date: '2024-03-04'
+modified_date: '2024-03-04'
 image: /assets/images/posts/random-img.jpg
 ---
 
