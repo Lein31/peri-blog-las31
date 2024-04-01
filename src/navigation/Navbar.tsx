@@ -15,7 +15,7 @@ const Navbar = (props: INavbarProps) => (
         }
 
         .navbar :global(a:hover) {
-          @apply no-underline text-gray-900;
+          @apply underline text-gray-900;
         }
       `}
     </style>

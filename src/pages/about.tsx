@@ -7,17 +7,10 @@ import { Main } from '../templates/Main';
 const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
+      <p>Bienvenidos a la guía completa sobre peri 2024</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
+        Personalmente hacer este proyecto solo me ha hecho tener dolor emocional
+        y mental cero recomendado y ayuda con esta carrera.
       </p>
     </Content>
   </Main>
