@@ -33,10 +33,9 @@ Estos operadores generalmente evalúan verdadero o falso, esto dependiendo de qu
 
 Una expresión creada con un operador relacional forma lo que se conoce como una expresión relacional o como condición.
 
-<video src="https://www.youtube.com/watch?v=TO-hT6jyDKU" width="320" height="240" controls></video>
-
 ```js
 function ejemplo_Relacional(){
+
 "1)"  
   8 > 5 * 1
     8 > 5
@@ -50,6 +49,7 @@ function ejemplo_Relacional(){
    “3” <= “@”
     51 <= 64
    Verdadero
+   
 } 
 ```
  Cuando un número o símbolo se encuentra entre comillas este tiene un valor en la tabla de ASCII (El valor utilizado es el **decimal**)
@@ -58,8 +58,9 @@ Link a la tabla de valores:
 https://www.ibm.com/docs/es/aix/7.1?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table
 
 Aquí unos videos explicativos sobre el tema:
+
 https://www.youtube.com/watch?v=wXaKbHXinyQ 
-<br>
+
 https://www.youtube.com/watch?v=313t6uDKHAc
-<br>
+
 https://www.youtube.com/watch?v=9kraokTxaqs

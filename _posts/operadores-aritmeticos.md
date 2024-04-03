@@ -16,16 +16,57 @@ Expresión Matemática: combinación de símbolos, letras y números que esperan
 
 Estos se resuelven en un orden jerárquico o de precendecia, dicho orden es: 
 
-```js
-function orden_Aritmetico() {
+***¿Para qué sirven?***
+
+Estos realizan operaciones matemáticas como sumas o restas con operandos.
+
+Estos tienen dos tipos de operadores: Unarios y binarios.
+
+Unarios: Realizan acciones con un solo operando.
+
+Binarios: Realizan acciones con dos operandos.
+
+En una expresión compleja (cuando este tiene dos o más operandos) en el orden de la evaluación depende de las reglas de precendencia.
+
+```c
+
+int orden(int a, int b) {
   
-  Exponentes y Radicales: 2^2 √2
+  "1)" Exponentes y Radicales: **,√
 
-  Negatividad:  –2  –6 
+  "2)" Negatividad:  –2  –6 
 
-  Multiplicación, división y módulos: * / mod (%)
+  "3)" Multiplicación división y módulos: * , / , mod (%)
 
-  Sumas y restas: + –
+  "4)" Sumas y restas: + –
+
+  return Orden;
+
+}
+
+```
+***Operadores Aritméticos Binarios***
+
+Este Inserta un espacio antes y después de un operador aritmético.
+
+
+```js
+function operadores_aritmeticos() {
+  
++------+--------------+---------+---------------------------------------------------------+
+| "(+)"  |     Suma     |  a + b  |               Sumar los dos operandos                   |
++------+--------------+---------+---------------------------------------------------------+ |
+| "(-)"  |    Resta     |  a - b  |     Restar el segundo operando del primero              |
++------+--------------+---------+---------------------------------------------------------+ |
+| "(*)"  | Multiplicación| a * b   |              Multiplicar los dos operandos             |
++------+--------------+---------+---------------------------------------------------------+ |
+| "(/)"  |   División   |  a / b  |       Dividir el primer operando por el segundo         |
++------+--------------+---------+---------------------------------------------------------+ |
+| "(**)" |   Potencia   | a ** b  |    Elevar el primer operando a la potencia del segundo  |
++------+--------------+---------+---------------------------------------------------------+ |
+| "(%)"  |    Resto     |  a % b  |  Dividir el primer operando por el segundo y dar como   |
+|        |              |         |       resultado la parte restante                       |
++------+--------------+---------+---------------------------------------------------------+
 
 }
 ```
